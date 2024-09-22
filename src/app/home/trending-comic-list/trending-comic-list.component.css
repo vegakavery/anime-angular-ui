@@ -1,0 +1,67 @@
+.home-aside {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px;
+}
+
+.aside-header {
+    width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.header-text {
+    margin: 0;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.aside-header > i {
+    color: #FF7E01;
+    font-size: 1.8rem;
+}
+
+.icon-div {
+    width: 1rem;
+    height: 1rem;
+    background-color: #e2e2e2;
+    border-radius: 50%;
+    transition: all ease .3s;
+}
+
+.icon-div > i {
+    color: #fff;
+    font-size: .5rem;
+}
+
+.anime-name {
+    margin: 0;
+    padding: 0;
+    transition: all ease .3s;
+    font-size: .8rem;
+}
+
+.anime-tag {
+    width: 3.5rem;
+    font-size: .7rem;
+    color: #fff;
+    border-radius: 1rem;
+    background-color: #DC3545;
+    transition: all ease .3s;
+    text-align: center;
+}
+
+.aside-list-item:hover .icon-div {
+    background-color: #01BCF3;
+    cursor: pointer;
+}
+
+.aside-list-item:hover .anime-name {
+    color: #01BCF3;
+    cursor: pointer;
+}
+
+.aside-list-item:hover .anime-tag {
+    background-color: #01BCF3;
+    cursor: pointer;
+}

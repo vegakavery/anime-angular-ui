@@ -1,0 +1,18 @@
+<div *ngIf="!(moviesStatus && animesStatus)" class="container-xl mt-4 mb-4">
+    <div class="row">
+        <div class="col-4">
+            <app-trending-comic-list></app-trending-comic-list>
+        </div>
+        <div class="col-8">
+            <app-home-content></app-home-content>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="moviesStatus && animesStatus" class="spinner container-xl mt-4 mb-4">
+    <div class="row w-100 h-100">
+        <div class=" col-12 d-flex justify-content-center align-items-center">
+            <app-spinner></app-spinner>
+        </div>
+    </div>
+</div>
